@@ -10,7 +10,8 @@
  *
  * Created on November 24, 2018, 3:06 PM
  * 1.16: Write your own version of a program that prints the sum of
- *a set of integers read from cin.
+ * a set of integers read from cin.
+ * 
  */
 
 #include <cstdlib>

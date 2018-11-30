@@ -15,7 +15,8 @@
  * for (int i = 0; i != 10; ++i)
  * sum += i;
  * std::cout << i << " " << sum << std::endl;
- * LEGAL: 100 45
+ * LEGAL output: 100 45
+ * 
  */
 
 #include <cstdlib>

@@ -7,7 +7,6 @@
 /* 
  * File:   main.cpp
  * Author: abel8
- *
  * Created on November 23, 2018, 7:24 PM
  * 1.10: In addition to the ++ operator that adds 1 to its operand,
  *there is a decrement operator (--) that subtracts 1. Use the decrement

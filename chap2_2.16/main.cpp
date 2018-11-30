@@ -16,6 +16,7 @@
  * (b) r2 = r1; valid assigns 0 to d value will be truncated
  * (c) i = r2; valid but value will be truncated
  * (d) r1 = d; assigns d to i
+ * 
  */
 
 #include <cstdlib>

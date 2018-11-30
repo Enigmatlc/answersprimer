@@ -12,7 +12,8 @@
  *  2.6: What, if any, are the differences between the following
  * definitions:
  * int month = 9, day = 7; both are ints
- * int month = 09, day = 07; octal numbers: 07 = 7 decimal 09 = invalid
+ * int month = 09, day = 07; octal numbers: 07 = 7 decimal 09 = invalid no 9 digit in octal
+ * 
  */
 
 #include <cstdlib>

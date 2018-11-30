@@ -9,6 +9,7 @@
  * Author: Enigmatic
  *1.13: Rewrite the exercises from § 1.4.1 (p. 13) using for loops.
  * Created on November 23, 2018, 7:47 PM
+ * 
  */
 
 #include <cstdlib>

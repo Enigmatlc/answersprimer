@@ -19,6 +19,7 @@
  *      signed is always positive
  * long is normally the same size as int
  * double is faster that float in some occasions, and its more accurate  
+ * 
  */
 
 #include <cstdlib>

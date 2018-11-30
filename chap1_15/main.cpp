@@ -9,6 +9,8 @@
  * Author: abel8
  *
  * Created on November 21, 2018, 9:23 PM
+ * 1.5: We wrote the output in one large statement. Rewrite the
+ * program to use a separate statement to print each operand.
  */
 #include <iostream>
 int main(){

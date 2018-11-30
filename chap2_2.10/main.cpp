@@ -18,7 +18,7 @@
  * { 
  * int local_int; **undefined
  * std::string local_str; **empty
-}
+ * }
  */
 
 #include <cstdlib>

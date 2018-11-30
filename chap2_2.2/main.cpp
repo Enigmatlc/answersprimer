@@ -14,7 +14,7 @@
  */
 /* 
  * float for the rate,principal and payment
- * because there are only 2 significant figures in money and float is accurate enough to hold the value.
+ * because there are only 2 significant figures in money and float is big enough to hold the value most of the time.
  */
 
 #include <cstdlib>

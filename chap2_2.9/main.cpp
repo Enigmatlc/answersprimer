@@ -15,6 +15,7 @@
  * (b) int i = { 3.14 }; error narrowing conversion **FIX** double i = { 3.14 };
  * (c) double salary = wage = 9999.99; ERROR wage was not declared **FIX** double salary,wage = 9999.99;
  * (d) int i = 3.14; value will be truncated
+ * 
  */
 
 #include <cstdlib>

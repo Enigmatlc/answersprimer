@@ -11,6 +11,7 @@
  * Created on November 23, 2018, 7:17 PM
  * 1.9: Write a program that uses a while to sum the numbers from
  *50 to 100.
+ * 
  */
 
 #include <cstdlib>

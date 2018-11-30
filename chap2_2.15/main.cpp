@@ -13,7 +13,8 @@
  * (a) int ival = 1.01; valid but truncation will occur
  * (b) int &rval1 = 1.01; invalid cant use a literal to initialize a reference
  * (c) int &rval2 = ival; valid
- * (d) int &rval3; invalid references must point to an object when defined
+ * (d) int &rval3; invalid reference must be initialize
+ * 
  */
 
 #include <cstdlib>
