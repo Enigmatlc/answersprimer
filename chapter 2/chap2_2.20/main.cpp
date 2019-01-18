@@ -16,7 +16,7 @@
 //*p1 = *p1 * *p1;
 
 #include <cstdlib>
-
+#include <iostream>
 using namespace std;
 
 /*
