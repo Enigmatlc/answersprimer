@@ -12,7 +12,7 @@
  */
 
 //2.22: Assuming p is a pointer to int, explain the following code:
-//if (p) // ... test if p is zero
+//if (p) // ... test if p is null
 //if (*p) // ... test value that *p is pointing to
 #include <cstdlib>
 
