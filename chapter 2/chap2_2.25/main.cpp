@@ -10,7 +10,11 @@
  *
  * Created on January 17, 2019, 9:13 PM
  */
-
+//Exercise 2.25: Determine the types and values of each of the following
+//variables.
+//(a) int* ip, *&r = ip; ip is a pointer,r is a reference to pointer
+//(b) int i, *ip = 0; i is an int, ip is a null pointer to int
+//(c) int* ip, ip2; ip is a pointer, ip2 is an int
 #include <cstdlib>
 
 using namespace std;
