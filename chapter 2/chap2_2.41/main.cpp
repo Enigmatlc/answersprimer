@@ -19,14 +19,12 @@
 #include <string>
 #include <iostream>
 
-
 struct Sales_data{
     std::string bookNo;
     unsigned units_sold;
     double revenue;
 };
 int main(int argc, char** argv) {
-
     std::cout<<"Exercise 1.20"<<std::endl;
 //    Exercise 1.20: http://www.informit.com/title/032174113 contains a copy of
 //    Sales_item.h in the Chapter 1 code directory. Copy that file to your
@@ -91,6 +89,61 @@ int main(int argc, char** argv) {
         else
             std::cout<<"No sales for this item"<<std::endl;
     }
+//    Exercise 1.23: Write a program that reads several transactions and counts
+//    how many transactions occur for each ISBN.
+    
+//    Exercise 1.24: Test the previous program by giving multiple transactions
+//    representing multiple ISBNs. The records for each ISBN should be grouped
+//    together.
+    Sales_data read1,total1;
+    int cnt=1;
+    if(std::cin>>total1.bookNo>>total1.units_sold>>total1.revenue){
+        while(std::cin>>read1.bookNo>>read1.units_sold>>read1.revenue){
+            if(read1.bookNo == total1.bookNo){
+                ++cnt;
+            }else{
+                std::cout<<total1.bookNo<<" appeared: "<<cnt<<std::endl;
+                total1.bookNo = read1.bookNo;
+                total1.units_sold = read1.units_sold;
+                total1.revenue = read1.revenue;
+                cnt =1;
+            }
+        }
+        std::cout<<total1.bookNo <<" appeared: "<<cnt<<std::endl;
+    }
+//    Exercise 1.25: Using the Sales_item.h header from the Web site,
+//    compile and execute the bookstore program presented in this section.
+    Sales_data total3,read3;
+    double price4;
+    double price5;
+    if(std::cin>>total3.bookNo>>total3.units_sold>>price4){
+        total3.revenue = total3.units_sold * price4;
+        while(std::cin>>read3.bookNo>>read3.units_sold>>price5){
+            read3.revenue = read3.units_sold * price2;
+            if(read3.bookNo == total3.bookNo){
+                total3.units_sold += read3.units_sold;
+                total3.revenue += read3.revenue;
+            }
+            else{
+                std::cout<<total3.bookNo<<" "<<total3.units_sold<<" "<<total3.revenue<<" ";
+                if(total3.units_sold != 0){
+                std::cout<<total3.revenue/total3.units_sold<<std::endl;
+                }
+                else
+                    std::cout<<"No sales for this item"<<std::endl;
+                total3.bookNo = read3.bookNo;
+                total3.units_sold = read3.units_sold;
+                total3.revenue = read3.revenue;
+            }
+        }
+        std::cout<<total3.bookNo<<" "<<total3.units_sold<<" "<<total3.revenue<<" ";
+        if(total3.units_sold != 0){
+            std::cout<<total3.revenue/total3.units_sold<<std::endl;
+        }
+        else
+            std::cout<<"No sales for this item"<<std::endl;
+    }
+    
     return 0;
 }
 
