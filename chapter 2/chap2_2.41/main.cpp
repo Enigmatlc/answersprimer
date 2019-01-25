@@ -91,6 +91,8 @@ int main(int argc, char** argv) {
         else
             std::cout<<"No sales for this item"<<std::endl;
     }
+//    Exercise 1.23: Write a program that reads several transactions and counts
+//    how many transactions occur for each ISBN.
     return 0;
 }
 
