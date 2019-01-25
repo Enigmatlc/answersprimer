@@ -13,6 +13,9 @@
 
 #include <cstdlib>
 
+g
+gh
+g
 using namespace std;
 
 /*
