@@ -6,24 +6,19 @@
 
 /* 
  * File:   main.cpp
- * Author: Enigmatic
+ * Author: enrique
  *
- * Created on January 23, 2019, 5:06 PM
+ * Created on January 24, 2019, 1:12 PM
  */
 
-//Exercise 2.41: Use your Sales_data class to rewrite the exercises in §
-//1.5.1 (p. 22), § 1.5.2 (p. 24), and § 1.6 (p. 25). For now, you should define
-//your Sales_data class in the same file as your main function.
+//Exercise 2.42: Write your own version of the Sales_data.h header and
+//use it to rewrite the exercise from § 2.6.2 (p. 76).
 
 #include <cstdlib>
 #include <string>
 #include <iostream>
+#include "Sales_data.h"
 
-struct Sales_data{
-    std::string bookNo;
-    unsigned units_sold;
-    double revenue;
-};
 int main(int argc, char** argv) {
     std::cout<<"Exercise 1.20"<<std::endl;
 //    Exercise 1.20: http://www.informit.com/title/032174113 contains a copy of
@@ -91,8 +86,6 @@ int main(int argc, char** argv) {
     }
 //    Exercise 1.23: Write a program that reads several transactions and counts
 //    how many transactions occur for each ISBN.
-<<<<<<< HEAD
-=======
     
 //    Exercise 1.24: Test the previous program by giving multiple transactions
 //    representing multiple ISBNs. The records for each ISBN should be grouped
@@ -146,7 +139,5 @@ int main(int argc, char** argv) {
             std::cout<<"No sales for this item"<<std::endl;
     }
     
->>>>>>> 9af4f5734f3075e5bd3b800b61dc1d73ad6e6000
     return 0;
 }
-
