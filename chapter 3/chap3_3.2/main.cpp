@@ -10,16 +10,26 @@
  *
  * Created on January 24, 2019, 9:06 PM
  */
+//Exercise 3.2: Write a program to read the standard input a line at a time.
+//Modify your program to read a word at a time.
 
-#include <cstdlib>
-
-using namespace std;
-
+#include <iostream>
+#include <string>
+using std::string;      using std::cout;     using std::cin;
+using std::cin;         using std::endl;     using std::getline;
 /*
  * 
  */
-int main(int argc, char** argv) {
-
+int main() {
+    string line;
+    //read line
+    while(getline(cin,line)){
+        cout<<line<<endl;
+    }
+    //read word
+    while(cin>>line){
+        cout<<line<<endl;
+    }
     return 0;
 }
 
