@@ -13,6 +13,12 @@
 //Exercise 3.2: Write a program to read the standard input a line at a time.
 //Modify your program to read a word at a time.
 
+<<<<<<< HEAD
+=======
+//Exercise 3.2: Write a program to read the standard input a line at a time.
+//Modify your program to read a word at a time.
+
+>>>>>>> 956a3ee19184e162c78232282975a3d38f574b7e
 #include <iostream>
 #include <string>
 using std::string;      using std::cout;     using std::cin;
