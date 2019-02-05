@@ -32,7 +32,7 @@ int main(int argc, char** argv) {
     string tmp=" ";
     vector<string> vec;
     int cnt=0;
-    while(cnt<10){
+    while(cnt<19){
         cin>>read;
         vec.push_back(read);
         cnt++;
@@ -44,8 +44,15 @@ int main(int argc, char** argv) {
         }
         vec[v_sze]=tmp;
     }
-    for(auto c: vec)
-        cout<<c<<" ";
+    //not done
+    for(auto cnt=0;cnt<=vec.size()-1;cnt++){
+        
+        if(cnt % 8==0){
+            cout<<endl;
+        }
+        cout<<vec[cnt]<<" ";
+    }
+            
     return 0;
 }
 
