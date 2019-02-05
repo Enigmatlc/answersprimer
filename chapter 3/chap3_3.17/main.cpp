@@ -29,11 +29,10 @@ using std::string;
  */
 int main(int argc, char** argv) {
     string read;
-    string tmp=" ";
+    string tmp;
     vector<string> vec;
     int cnt=0;
-    while(cnt<19){
-        cin>>read;
+    while(cin>>read){
         vec.push_back(read);
         cnt++;
     }
@@ -44,6 +43,7 @@ int main(int argc, char** argv) {
         }
         vec[v_sze]=tmp;
     }
+    
     for(auto lines = 0;lines<=vec.size()-1;lines++){
         if(lines !=0 && lines%8==0)
             cout<<endl;
