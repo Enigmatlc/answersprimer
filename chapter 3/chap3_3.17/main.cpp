@@ -44,15 +44,11 @@ int main(int argc, char** argv) {
         }
         vec[v_sze]=tmp;
     }
-    //not done
-    for(auto cnt=0;cnt<=vec.size()-1;cnt++){
-        
-        if(cnt % 8==0){
+    for(auto lines = 0;lines<=vec.size()-1;lines++){
+        if(lines !=0 && lines%8==0)
             cout<<endl;
-        }
-        cout<<vec[cnt]<<" ";
+        cout<<vec[lines]<<" ";
     }
-            
     return 0;
 }
 
