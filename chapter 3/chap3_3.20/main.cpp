@@ -27,7 +27,14 @@ using std::cout;    using std::cin;
 int main(int argc, char** argv) {
     vector<int> vec;
     for(int read;cin>>read;vec.push_back(read));
-    //part b
+    //part a
+    auto cnt =vec.size();
+    for(auto i=0;i<vec.size()-1;i++){
+        if(i>=vec.size()-1);
+            cout<<vec[i]+vec[i+1]<<" ";
+    }
+    cout<<endl;
+//    //part b
     auto mid= (vec.size()+ 1)/2;
     auto sze=vec.size()-1;
     for(int i=0;i != mid;i++){
