@@ -30,7 +30,6 @@ int main(int argc, char** argv) {
     //part a
     auto cnt =vec.size();
     for(auto i=0;i<vec.size()-1;i++){
-        if(i>=vec.size()-1);
             cout<<vec[i]+vec[i+1]<<" ";
     }
     cout<<endl;
