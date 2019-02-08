@@ -39,11 +39,12 @@ int main(int argc, char** argv) {
     }
     cout<<endl;
     //part b
-    auto mid = vec.cend();
-    auto end =vec.cend();
-    for(auto iter = vec.cbegin();iter != mid;iter++){
-        cout<<*iter+*end<<" ";
+    auto end =vec.cend()-1;
+    for(auto iter = vec.cbegin();iter != vec.cend();iter++){
+        if(iter!=end && !(iter>end))
+            cout<<*iter+*end<<" ";
         --end;
+        
     }
     return 0;
 }

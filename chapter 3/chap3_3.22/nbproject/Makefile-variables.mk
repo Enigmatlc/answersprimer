@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=chap3_3.21
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/chap3_3.21
+CND_ARTIFACT_NAME_Debug=chap3_3.22
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/chap3_3.22
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=chap33.21.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/chap33.21.tar
+CND_PACKAGE_NAME_Debug=chap33.22.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/chap33.22.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=chap3_3.21
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/chap3_3.21
+CND_ARTIFACT_NAME_Release=chap3_3.22
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/chap3_3.22
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=chap33.21.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/chap33.21.tar
+CND_PACKAGE_NAME_Release=chap33.22.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/chap33.22.tar
 #
 # include compiler specific variables
 #
