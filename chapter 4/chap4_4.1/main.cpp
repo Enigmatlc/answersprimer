@@ -10,7 +10,8 @@
  *
  * Created on February 13, 2019, 11:39 AM
  */
-
+//Exercise 4.1: What is the value returned by 5 + 10 * 20/2?
+//same as (5 + ((10 * 20)/2)) = 105
 #include <cstdlib>
 
 using namespace std;
