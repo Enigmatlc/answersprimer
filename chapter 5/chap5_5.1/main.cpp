@@ -10,16 +10,12 @@
  *
  * Created on April 4, 2019, 5:04 PM
  */
+//Exercise 5.1: What is a null statement? When might you use a null
+//statement?
 
-#include <cstdlib>
-
-using namespace std;
-
-/*
- * 
- */
-int main(int argc, char** argv) {
-
-    return 0;
-}
-
+//The simplest statement is the empty statement, also known as a null statement. A
+//null statement is a single semicolon:
+//;
+//A null statement is useful where the language requires a statement but the
+//program’s logic does not. Such usage is most common when a loop’s work can be
+//done within its condition.
