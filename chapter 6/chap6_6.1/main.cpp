@@ -10,16 +10,12 @@
  *
  * Created on April 19, 2019, 8:36 PM
  */
+//Exercise 6.1: What is the difference between a parameter and an
+//argument?
 
-#include <cstdlib>
-
-using namespace std;
-
-/*
- * 
- */
-int main(int argc, char** argv) {
-
-    return 0;
-}
-
+//Arguments are the initializers for a function’s parameters. The first argument initializes
+//the first parameter, the second argument initializes the second parameter, and so on.
+//Although we know which argument initializes which parameter, we have no
+//guarantees about the order in which arguments are evaluated (§ 4.1.3, p. 137). The
+//compiler is free to evaluate the arguments in whatever order it prefers.
+    
