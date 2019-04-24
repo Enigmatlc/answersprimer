@@ -20,7 +20,7 @@ using std::cin;
 /*
  * 
  */
-int fact(int val){
+int fact_usr(int val){
     int ret = 1; // local variable to hold the result as we calculate it
     while (val > 1)
         ret *= val--; // assign ret * val to ret and decrement val
