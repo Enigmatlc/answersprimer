@@ -5,18 +5,19 @@
  */
 
 /* 
- * File:   newfile.h
+ * File:   chapter6.h
  * Author: Enigmatic
  *
- * Created on April 24, 2019, 1:24 PM
+ * Created on April 25, 2019, 12:31 AM
  */
 
-#ifndef NEWFILE_H
-#define NEWFILE_H
+#ifndef CHAPTER6_H
+#define CHAPTER6_H
 
 int fact(int val);
 int fact_usr(int val);
-int abs(int num);
-size_t count_calls();
-#endif /* NEWFILE_H */
+int absv(int num);
+
+
+#endif /* CHAPTER6_H */
 
