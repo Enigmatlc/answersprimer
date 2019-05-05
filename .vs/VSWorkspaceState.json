@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\chapter 6"
+    "\\chapter 6",
+    "\\chapter 6\\chap6_6.36",
+    "\\chapter 6\\chap6_6.37"
   ],
-  "SelectedNode": "\\chapter 6\\chap6_6.27",
+  "SelectedNode": "\\chapter 6\\chap6_6.37\\Source.cpp",
   "PreviewInSolutionExplorer": false
 }
