@@ -28,7 +28,6 @@ public:
 	char get()const { return contents[cursor]; }
 	inline char get(pos ht, pos wd)const;
 	Screen& move(pos r, pos c);
-
 private:
 	void do_display(std::ostream& os) const { os << contents; }
 	pos cursor = 0;
