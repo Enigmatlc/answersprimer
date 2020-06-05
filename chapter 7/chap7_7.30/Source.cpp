@@ -9,4 +9,4 @@
 
 //cons
 //can get tricky it not used correctly for example if you forget to return a reference from a function and end up working on a copy of the objective.
-//can be hard to understand for begginers 
+//can be hard to understand for beginners 
