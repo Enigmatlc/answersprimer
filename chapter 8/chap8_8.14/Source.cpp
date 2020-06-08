@@ -1,0 +1,2 @@
+//Exercise 8.14: Why did we declare entry and nums as const auto & ?
+//because they aren't being changed by the programs its just checking if the numbers are valid. it the numbers are valid then they are copied to the string.
