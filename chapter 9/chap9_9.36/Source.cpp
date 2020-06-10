@@ -1,0 +1,2 @@
+//Exercise 9.36: Can a container have a capacity less than its size ?
+//no since capacity is not related to the size of the container  it only lets us know how many items can be inserted into the container before it has to be reallocated and capacity has to be >=size.
