@@ -1,0 +1,2 @@
+//Exercise 13.9: What is a destructor ? What does the synthesized destructor
+//do ? When is a destructor synthesized ? the destructor is responsible for freeing the memory that was used by an object of its class type after its out of scope. If we don't provide a destructor the compiler provides a s synthesized version. the destructor is also responsible for other variables that go out of scope and class types provided their own destructor.

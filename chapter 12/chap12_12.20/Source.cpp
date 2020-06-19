@@ -16,6 +16,9 @@ int main() {
 	ifstream read;
 	read.open("test.txt");
 	string word;
+	cout << "before copy" << endl;
+	//assignment 13.3
+	//item.shr();
 	while (getline(read,word))
 	{
 		item.push_back(word);
@@ -26,5 +29,13 @@ int main() {
 		cout << c_begin.deref() << endl;
 		c_begin.incr();
 	}
-
+	//assignment 13.3
+	//cout <<"after copy: "<< endl;
+	//StrBlob item2 = item;
+	//item.shr();
+	//StrBlobPtr f_begin(item2.begin()), f_end(item2.end());
+	//while (f_begin != f_end) {
+	//	cout << f_begin.deref() << endl;
+	//	f_begin.incr();
+	//}
 }

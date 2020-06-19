@@ -5,7 +5,7 @@
 #include<stdexcept>
 #include <memory>
 #include <exception>
-
+#include<iostream>
 using std::vector;
 using std::string;
 
@@ -57,7 +57,7 @@ public:
         check(0, "back on empty StrBlob");
         return data->back();
     }
-
+    //void shr() { std::cout << data.use_count(); } assignment 13.3
 private:
     void check(size_type i, const string& msg) const
     {
