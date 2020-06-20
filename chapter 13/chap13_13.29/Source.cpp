@@ -1,0 +1,2 @@
+//Exercise 13.29: Explain why the calls to swap inside swap(HasPtr&,
+//	HasPtr&) do not cause a recursion loop. because the parameters are different in both swaps the one used in foo takes foo objects and we are using inside swap uses HasPtr.
