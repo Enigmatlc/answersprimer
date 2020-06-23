@@ -1,0 +1,2 @@
+//Exercise 13.38: We did not use copy and swap to define the Message
+//assignment operator. Why do you suppose this is so ? its not needed for this class since we dont allocate dynamic memory and it will make it more difficult to implement because of the pointers that we esed in both classes.

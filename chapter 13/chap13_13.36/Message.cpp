@@ -1,0 +1,65 @@
+#include"Message.h"
+//add message to Folders
+
+void Message::save(Folder& f) {
+	folders.insert(&f);
+	f.addMsg(this);
+}
+//remove from folder
+void Message::remove(Folder& f) {
+	folders.erase(&f);
+	f.remMsg(this);
+}
+//add message to message folders that point to m
+void Message::add_to_Folders(const Message& m) {
+	for (auto f : m.folders)
+		f->addMsg(this);
+}
+//copy constructor
+Message::Message(const Message& m) :contents(m.contents), folders(m.folders) { add_to_Folders(m); }
+//remove message from Folders that point to it
+void Message::remove_from_Folders() {
+	for (auto f : folders)
+		f->remMsg(this);
+}
+//destructor
+Message::~Message() {
+	remove_from_Folders();
+}
+Message& Message::operator=(const Message& rhs) {
+	remove_from_Folders();
+	contents = rhs.contents;
+	folders = rhs.folders;
+	add_to_Folders(rhs);
+	return *this;
+}
+void swap(Message& lhs, Message& rhs)
+{
+	using std::swap;
+	lhs.remove_from_Folders();
+	rhs.remove_from_Folders();
+
+	swap(lhs.folders, rhs.folders);
+	swap(lhs.contents, rhs.contents);
+
+	lhs.add_to_Folders(lhs);
+	rhs.add_to_Folders(rhs);
+}
+//Folder implementation
+void Folder::addMsg(Message* m) {
+	messages.insert(m);
+}
+void Folder::remMsg(Message* m) {
+	messages.erase(m);
+}
+//copy constructor
+Folder::Folder(const Folder& f) :messages(f.messages){}
+void Folder::add_to_Messages(const Folder& f)
+{
+	for (auto m : f.messages) m->addFldr(this);
+}
+
+void Folder::remove_from_Messages()
+{
+	for (auto m : messages) m->remFldr(this);
+}
