@@ -1,0 +1,2 @@
+Exercise 15.1: What is a virtual member?
+a virtual member lets the derived classes know that they have to define their own version of the member in their own scope and when a derived class defines the member the it will be implicitly virtual too.

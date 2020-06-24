@@ -1,0 +1,2 @@
+Exercise 15.2: How does the protected access specifier differ from
+private? it does the same as private with one difference it allows the derived classes to use the member but its still private to the rest of the program.
