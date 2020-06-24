@@ -1,0 +1,2 @@
+//Exercise 14.31: Our StrBlobPtr class does not define the copy
+//constructor, assignment operator, or a destructor.Why is that okay ? we are not allocating memory in the heap so the synthesized versions are enough
