@@ -12,6 +12,13 @@ class Sales_data {
 	friend std::istream& read(std::istream& is, Sales_data& item);
 	friend std::ostream& print(std::ostream& os, const Sales_data& item);
 public:
+	//overloader conversion operators
+	explicit operator std::string() const{
+		return bookNo;
+	}
+	explicit operator double() const{
+		return revenue;
+	}
 	//constructors
 	Sales_data() = default;
 	Sales_data(const std::string& s) :bookNo(s) {}
