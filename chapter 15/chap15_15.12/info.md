@@ -1,0 +1,2 @@
+Exercise 15.12: Is it ever useful to declare a member function as both
+override and final? Why or why not? when you don't want any more classes that become part of the hierarchy to not be able to override the previous version of the function.

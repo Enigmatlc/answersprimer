@@ -4,12 +4,12 @@
 #include<string>
 #include<iostream>
 
-class Bulk_quote: public Quote{//Quote is the base class for Bulk_quote
+class Normal_disc: public Quote{//Quote is the base class for Bulk_quote
 public:
     //default constructor
-    Bulk_quote()=default;
+    Normal_disc()=default;
     //initialacing constructor
-    Bulk_quote(const std::string& book,double p,std::size_t qty,double disc):Quote(book,p),min_qty(qty),discount(disc){}
+    Normal_disc(const std::string& book,double p,std::size_t qty,double disc):Quote(book,p),min_qty(qty),discount(disc){}
     //overrides the base version in order to implement the bulk purchase discount policy
     double net_price(std::size_t cnt)const{
         if(cnt <= min_qty)
