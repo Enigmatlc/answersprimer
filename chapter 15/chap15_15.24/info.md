@@ -1,0 +1,2 @@
+Exercise 15.24: What kinds of classes need a virtual destructor? What
+operations must a virtual destructor perform? base classes should define a virtual constructor the virtual constructor will be responsible for deleting virtually allocated objects that are part of the hierarchy.
