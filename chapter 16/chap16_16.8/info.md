@@ -1,0 +1,3 @@
+Exercise 16.8: In the “Key Concept” box on page 108, we noted that as a
+matter of habit C++ programmers prefer using != to using <. Explain the
+rationale for this habit. Because its less error prone when using containers since some containers do not support the less than operator for example the list container does not support it but the vector does but both of them support != operator. When using templates is better to use != to make it more portable.

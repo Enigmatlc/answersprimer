@@ -1,0 +1,1 @@
+Exercise 16.10: What happens when a class template is instantiated? we provide the parameters that will be used by the template to replace the types with the given data type.

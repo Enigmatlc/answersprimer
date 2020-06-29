@@ -1,0 +1,1 @@
+Exercise 16.9: What is a function template? What is a class template? a class template is a blueprint for generating classes and we have to provide the data type that the class will hold using <>

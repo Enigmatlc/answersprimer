@@ -1,0 +1,1 @@
+Exercise 16.1: Define instantiation. instantiation happens when the compiler creates a function instance depending on the arguments passed to the template parameters. For example, if a template has a single parameter of typename T and we define a function that returns T if we pass an int to the parameter of that template the function instance will return an int.
