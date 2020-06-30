@@ -1,0 +1,2 @@
+Exercise 16.13: Explain which kind of friendship you chose for the equality
+and relational operators for BlobPtr. a friendship and used the Blob parameter type so each operator uses the data type that was used to instantiate Blob and BlobPtr

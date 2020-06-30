@@ -9,4 +9,5 @@ int compare(const T& v1,const T& v2){
 int main(){
     int num = compare(0,1);
     std::cout<<num<<std::endl;
+    while(1);
 }
