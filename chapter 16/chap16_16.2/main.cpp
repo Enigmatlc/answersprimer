@@ -7,7 +7,7 @@ int compare(const T& v1,const T& v2){
     return 0;
 }
 int main(){
+    int InsideMain=0;
     int num = compare(0,1);
     std::cout<<num<<std::endl;
-    while(1);
 }
